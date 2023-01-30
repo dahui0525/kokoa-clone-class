@@ -1,43 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Welcome to Kokoa Talk</title>
-</head>
-<body>
-    <div id="status-bar">
-        <div class="status-bar__column">
-            <span>No Service</span>
-            <i class="fas fa-wifi"></i>            
-        </div>
-        <div class="status-bar__column">
-            <span>18:43</span>
-        </div>
-        <div class="status-bar__column">
-            <!-- To Do : Rock Icon -->
-            <span>11%</span>
-            <i class="fas fa-battery-quarter"></i>
-            <i class="fas fa-bolt"></i>
-        </div>
+  </head>
+  <link rel="stylesheet" href="css/styles.css" />
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>05:25</span>
+      </div>
+      <div class="status-bar__column">
+        <!-- To Do : Rock Icon -->
+        <span>11%</span>
+        <i class="fas fa-battery-quarter fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
     </div>
-    
+
     <header class="welcome-header">
-        <h1 class="welcome-header__title">카카오톡에 오신 것을 환영합니다.</h1>
-        <p class="welcome-header__text">카카오 계정이 있으시다면 로그인 해 주세요.</p>
+      <h1 class="welcome-header__title">Welcome to KakaoTalk</h1>
+      <p class="welcome-header__text">
+        If you have a Kakao Account, log in with your email or phone number.
+      </p>
     </header>
 
     <form id="login-form">
-        <input type="text" placeholder="Email or Phone number" />
-        <input type="submit" value="로그인" />
-        <input type="submit" value="회원가입" />
-        <input type="password" placeholder="Password" />
-        <a class="" href="#"> 카카오톡 아이디, 비밀번호 찾기 </a>
+      <input type="text" placeholder="Email or Phone number" />
+      <input type="password" placeholder="Password" />
+      <input type="submit" value="Log in" />
+      <a class="" href="#"> Find Kakao Account or Password </a>
     </form>
 
-
-
-    <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
