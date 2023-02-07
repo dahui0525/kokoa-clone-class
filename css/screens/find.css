@@ -7,22 +7,6 @@
   top: 45px;
 }
 
-.find-icons {
-  display: flex;
-  justify-content: space-between;
-}
-
-.find-icons__icon {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.find-icons__icon i {
-  font-size: 30px;
-  margin-bottom: 20px;
-}
-
 .recommended-friends {
   margin: 20px 0px;
   padding: 25px 0px;
@@ -113,6 +97,11 @@
   color: white;
   padding: 5px 10px;
   border-radius: 20px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 25px;
+  bottom: 15px;
 }
 
 .open-post__heart-count i {
