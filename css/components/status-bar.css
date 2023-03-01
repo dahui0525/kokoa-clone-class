@@ -8,6 +8,10 @@
   padding: 5px 3px;
 }
 
+.status-bar__chat-screen {
+  background-color: #abc1d1;
+}
+
 .status-bar__column {
   width: 33%;
 }
